@@ -1,25 +1,22 @@
-.div1, .div{
-    margin-left: 120px;
-    margin-bottom: 30px;
+.main-app{
+    display: flex;
+
 }
 
-.login{
-    color: #0a66c2;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 40px;
-    border-radius: 60px;
-    margin-left: 120px;
-    margin-bottom: 30px;
+.Layout-show{
+    display: block;
 }
 
-#login-button {
+.inside-div{
+ 
+}
+/* #login-button {
     font-family: sans-serif;
-    margin: 10px;
+    margin: 20px auto;
     color: gray;
     text-align: center;
     font-size: 15px;
-    width: 170px;
+    width: 180px;
     position: relative;
    
 }
@@ -45,10 +42,7 @@
     top: 50%;
     position: absolute;
   
-}
+} */
 
-.button-google{
-    margin-bottom: 15px;
-    color:gray;
-    border-radius: 20px;
-}
+
+
