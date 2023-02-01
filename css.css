@@ -13,17 +13,17 @@
 
 #login-button {
     font-family: sans-serif;
-    margin: 10px auto;
-    color: #228B22;
+    margin: 10px;
+    color: gray;
     text-align: center;
     font-size: 15px;
-    width: 210px;
+    width: 170px;
     position: relative;
 }
 #login-button:before {
     content: "";
     display: block;
-    width: 80px;
+    width: 60px;
     height: 2px;
     background: #000;
     left: 0;
@@ -34,10 +34,17 @@
 #login-button:after {
     content: "";
     display: block;
-    width: 80px;
+    width: 60px;
     height: 2px;
     background: #000;
     right: 0;
     top: 50%;
     position: absolute;
+}
+
+.button-google{
+    margin-bottom: 15px;
+    color:gray;
+    border-radius: 20px;
+    
 }
