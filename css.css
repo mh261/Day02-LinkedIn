@@ -1,12 +1,12 @@
 .main-app{
     display: block;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-right: 25%;
-    max-width: fit-content;
-    border-color: gray;
+    border-color: rgba(0, 0, 0, 0.6);
     border-style: solid;
-    border-width: 2px;
+    border-width: 0.5px;
+    box-shadow: unset;
     /* background-color: aqua; */
 
 }
@@ -16,13 +16,14 @@
 .inside-div{
     display: block;
     max-width: 100%;
-    margin-left: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
     margin-block-end: 10px;
 
  
 }
 .sign-in{
-    /* background: pink; */
+    background: white;
 }
 
 .sign-in .sign-in-h{
@@ -37,17 +38,28 @@
 }
 
 .input {
-    display:contents;
-    padding-top: 10px;
     font-size: smaller;
     color: black;
-
-}
-.input .input-1{
     display: block;
-    margin-bottom: 10px ;
+    margin-bottom: 20px ;
+    margin-block-start: 30px;
     font-family: sans-serif;
 
+}
+.input .input-1 , .input-2{
+    display: block;
+    position: relative;
+    height:40px ;
+    margin-top: 10px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    
+}
+
+.button .button-1{
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 /* #login-button {
