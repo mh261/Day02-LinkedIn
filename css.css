@@ -1,4 +1,4 @@
-.div1{
+.div1, .div{
     margin-left: 120px;
     margin-bottom: 30px;
 }
@@ -9,6 +9,8 @@
     margin-top: 30px;
     margin-left: 40px;
     border-radius: 60px;
+    margin-left: 120px;
+    margin-bottom: 30px;
 }
 
 #login-button {
@@ -19,6 +21,7 @@
     font-size: 15px;
     width: 170px;
     position: relative;
+   
 }
 #login-button:before {
     content: "";
@@ -29,6 +32,7 @@
     left: 0;
     top: 50%;
     position: absolute;
+  
 }
 
 #login-button:after {
@@ -40,11 +44,11 @@
     right: 0;
     top: 50%;
     position: absolute;
+  
 }
 
 .button-google{
     margin-bottom: 15px;
     color:gray;
     border-radius: 20px;
-    
 }
