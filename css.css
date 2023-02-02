@@ -86,14 +86,14 @@
     color: #808080;
     text-align: center;
     font-size: 10px;
-    width: 180px;
+    width: 200px;
     position: relative;
    
 }
 #login-button:before {
     content: "";
     display: block;
-    width: 60px;
+    width: 80px;
     height: 1px;
     background: #E0E0E0;
     left: 0;
@@ -105,7 +105,7 @@
 #login-button:after {
     content: "";
     display: block;
-    width: 60px;
+    width: 80px;
     height: 1px;
     background: #E0E0E0;
     right: 0;
@@ -114,8 +114,19 @@
   
 } 
 
-.sign-in-with-google{
+.sign-in-with-g{
     display: block;
+    border-radius: 20px;
+    width: 250px;
+    height: 25px;
+    border-width: 1.5px;
+}
 
-    
+.sign-in-with-a{
+    display: block;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 250px;
+    height: 25px;
+    border-width: 1.5px;
 }
