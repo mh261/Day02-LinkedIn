@@ -46,6 +46,7 @@
     margin-right: 50px;
     margin-block-start: 30px ;
     font-family: sans-serif;
+    
 
 }
 .input .input-1 , .input-2{
@@ -56,6 +57,7 @@
     margin-top: 10px;
     font-family: sans-serif;
     border-radius: 5px;
+    border-width: 1px;
     
 }
 
