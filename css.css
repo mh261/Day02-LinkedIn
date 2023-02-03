@@ -1,8 +1,9 @@
 .main-app{
-    display: block;
+    display: flex;
     font-size: 25px;
-   
-    margin-top: 5%;
+   justify-content: center;
+   align-items: center;
+    margin-top: 20px;
     margin-left: 40%  ;
     margin-right: 35% ;
     border-color: rgba(0, 0, 0, 0.6);
@@ -10,7 +11,10 @@
     border-width: 0.5px;
     box-shadow: unset;
     border-radius: 10px;
-    /* background-color: aqua; */
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.23);
+    /* background-color: aqua; */ 
 
 }
 
@@ -19,7 +23,7 @@
 .inside-div{
     display: block;
     max-width: 100%;
-    margin-left: 25px;
+    margin-left: 25%;
     margin-right: 10px;
     margin-block-end: 10px;
 
@@ -75,6 +79,7 @@
 
     border-radius: 10px;
     background-color:  #0066cc;
+    border-color:#0066cc; 
     padding: 5px 30px;
     text-align: center;
     display: inline-block;
@@ -118,17 +123,23 @@
 
 .sign-in-with-g{
     display: block;
+    background-color: white;
     border-radius: 20px;
     width: 250px;
     height: 25px;
     border-width: 1.5px;
+    color:#4F4F4F;
+
 }
 
 .sign-in-with-a{
     display: block;
+    background-color: #ffff;
     margin-top: 10px;
     border-radius: 20px;
     width: 250px;
     height: 25px;
     border-width: 1.5px;
+    color:#4F4F4F;
+    margin-block-end: 25px;
 }
